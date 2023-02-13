@@ -1,0 +1,17 @@
+const ciudadesDisponibes = ["CDMX", "Puebla", "Oaxaca", "Guerrero", "Veracruz"];
+const ciudadDestino = "Yucatán";
+
+let edadPasajero = 17;
+let estaAcompañado = true;
+let tienePasaporte = true;
+let estaCasado = true;
+
+if(ciudadesDisponibes.indexOf(ciudadDestino) > -1 
+&& edadPasajero >= 18 && tienePasaporte && !estaCasado)
+{
+    console.log("Pasaje disponible para la venta");
+}
+else
+{
+    console.log("Ciudad no disponible para la venta");
+}
